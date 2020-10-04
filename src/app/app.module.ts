@@ -11,7 +11,8 @@ import { ProductDescriptionComponent } from './product-description/product-descr
   declarations: [
     AppComponent,
     ProductPageComponent,
-    ProductDescriptionComponent
+    ProductDescriptionComponent,
+    ProductTracklistingComponent
   ],
   imports: [
     BrowserModule,
@@ -23,3 +24,4 @@ import { ProductDescriptionComponent } from './product-description/product-descr
 })
 export class AppModule { }
 import {ProductService} from './product.service';
+import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
