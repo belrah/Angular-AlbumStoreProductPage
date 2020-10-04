@@ -10,8 +10,8 @@ import { ProductDescriptionComponent } from './product-description/product-descr
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [  
-  { paths: 'products', component: ProductListComponent },
-  { paths: 'product/:id', component: ProductPageComponent }
+  { path: 'products', component: ProductListComponent },
+  { path: 'product/:id', component: ProductPageComponent }
   { path: '', redirectTo: 'products', pathMatch: 'full'}
 ]
 
